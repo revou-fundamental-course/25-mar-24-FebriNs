@@ -1,0 +1,103 @@
+header {
+  text-align: center;
+}
+
+h2,
+h3,
+h4 {
+  font-weight: 100;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+  font-size: small;
+}
+
+.main-container {
+  display: flex;
+}
+
+/* start form */
+
+.container-item {
+  width: 100%;
+  padding: 24px;
+}
+
+.container-item > h2 {
+  text-align: left;
+  font-weight: 100;
+}
+
+.container-form {
+  background-color: rgb(223, 240, 254);
+  padding: 24px;
+}
+
+.container-form > div {
+  padding: 8px;
+}
+
+#calculator-form,
+#download-button {
+  background-color: rgb(7, 215, 252);
+  color: white;
+}
+/* end form */
+
+/* start result */
+.container-result {
+  text-align: center;
+  background-color: rgb(223, 240, 254);
+  padding-top: 8px;
+  padding-bottom: 24px;
+}
+
+#calculate-button {
+  background-color: rgb(7, 215, 252);
+  color: white;
+}
+
+button {
+  height: 32px;
+  padding-right: 24px;
+  padding-left: 24px;
+  border: none;
+  background-color: white;
+  border-radius: 8px;
+  font-weight: 700;
+}
+.button-consult,
+.button-regist {
+  background-color: rgb(7, 215, 252);
+  color: white;
+}
+
+.disease {
+  text-align: center;
+  background-color: rgb(223, 240, 254);
+  padding-top: 8px;
+  padding-bottom: 24px;
+}
+
+.disease > p {
+  line-height: 5px;
+  font-family: arial;
+}
+
+#aplication,
+#online {
+  background-color: rgb(7, 215, 252);
+  color: white;
+}
+/* end result */
+
+@media only screen and (max-width: 480px) {
+  .main-container {
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+
+  /* .consul {
+  } */
+}
